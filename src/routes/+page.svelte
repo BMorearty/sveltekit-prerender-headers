@@ -17,11 +17,6 @@
   are specified in
   <code>/src/routes/atom.xml/+server.ts</code> but are being ignored.
 </p>
-<p>
-  Also note that atom.xml renders as an HTML page, not as XML. That's due to the incorrect <code
-    >Content-Type</code
-  >.
-</p>
 
 <style>
   code {

@@ -14,6 +14,3 @@ Then in your browser, open the Network debug panel.
 Then go to http://localhost:4173/atom.xml. Note in the Network panel that the `Content-Type`
 is `text/html` when i should be `application/atom+xml`, and there is no `Cache-Control`
 header. Both headers are specified in `/src/routes/atom.xml/+server.ts` but are being ignored.
-
-Also note that atom.xml renders as an HTML page, not as XML. That's due to the incorrect
-`Content-Type`.
